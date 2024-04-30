@@ -4,7 +4,10 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
+body{
+  background-color: black;
+  color: white;
+}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -190,7 +193,6 @@ textarea {
   a[href^="javascript:"]::after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
@@ -218,4 +220,5 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 
