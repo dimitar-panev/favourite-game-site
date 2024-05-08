@@ -11,6 +11,31 @@ body{
   background-image: url("../img/background.jpg");
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: black;
+}
+@media(max-width: 768px){
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar-item{
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+.navbar-item:hover{
+  color: blue;
+}
+.navbar-item:visited{
+  color: purple;
+}
+
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
