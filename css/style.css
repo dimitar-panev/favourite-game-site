@@ -14,7 +14,7 @@ body{
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5) ;
+  background-color: rgba(0, 0, 0, 0.5);
   border: #000 1px solid;
 }
 @media(max-width: 768px){
@@ -37,10 +37,6 @@ body{
 .navbar-item:hover{ /*add a hover effect*/
   color: grey;
 }
-.navbar-item:visited{
-  color: rgb(71, 71, 71);
-}
-
 /* end of navbar styling ////////////////////////////// */
 
 .main-content{
