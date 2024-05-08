@@ -8,6 +8,7 @@ html {
 body{
   background-color: black;
   color: white;
+  background-image: url("../img/background.jpg");
 }
 
 ::-moz-selection {
