@@ -8,8 +8,10 @@ html {
 body{
   background-color: black;
   color: white;
-  background-image: url("../img/background-no-blur.jpg");
+  background-image: url("../img/8067185.jpg");
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* navbar styling ///////////////////////////////////////// */
 .navbar{
