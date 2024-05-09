@@ -50,19 +50,22 @@ body{
   min-height: 100vh;
   font-size: 18px;
 }
-.mexicoimg{
+.container-images{
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.mexicoimg img{
+.container-images img{
   max-width: 100%;
   height: auto;
   width: 100%;
 }
+#m1{
+  margin: 10px;
+}
 #m2{
   width: 700px;
-  padding-right: 40px;
+  margin: 20px;
 }
 ::-moz-selection {
   background: #b3d4fc;
