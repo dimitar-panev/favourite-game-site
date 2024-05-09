@@ -50,7 +50,20 @@ body{
   min-height: 100vh;
   font-size: 18px;
 }
-
+.mexicoimg{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mexicoimg img{
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+#m2{
+  width: 700px;
+  padding-right: 40px;
+}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
