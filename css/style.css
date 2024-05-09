@@ -12,6 +12,7 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 /* navbar styling ///////////////////////////////////////// */
 .navbar{
@@ -60,12 +61,10 @@ body{
   height: auto;
   width: 100%;
   margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(44, 44, 44);
 }
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
