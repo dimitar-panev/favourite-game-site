@@ -69,6 +69,11 @@ body{
   background: #b3d4fc;
   text-shadow: none;
 }
+header img{
+  max-width: 50%;
+  width: 50%;
+  height: auto;
+}
 article{
   width: 50%;
   max-width: 50%;
