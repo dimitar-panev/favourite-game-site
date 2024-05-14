@@ -5,19 +5,21 @@ html {
     line-height: 1.4;
   }
   
-  body{
+body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
   /* navbar styling ///////////////////////////////////////// */
-  .navbar{
+.navbar{
     display: flex;
+    align-items: center;
     background-color: rgba(44, 44, 44, 0.5);
     border: #000 1px solid;
+    
   }
-  @media(max-width: 768px){
+@media(max-width: 768px){
     .navbar{
       flex-direction: column;
       font-size: 1em;
@@ -37,6 +39,41 @@ html {
   .navbar-item:hover{ /*add a hover effect*/
     color: rgb(128, 128, 128);
   }
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
   /* end of navbar styling ////////////////////////////// */
   
   .main-content{
@@ -65,7 +102,8 @@ html {
     background: #b3d4fc;
     text-shadow: none;
   }
-  
+
+  /* header styling ////////////// */
   header img{
     max-width: 35%;
     width: 35%;
@@ -73,15 +111,48 @@ html {
     display: block;
     margin: 20px auto 10px;
   }
+  header p{
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  header p{
+    font-size: 20px;
+  }
+  /*End of header styling /////////////*/
+
+
+  /*Article Styling ////////////////*/
   article{
     width: 50%;
     max-width: 50%;
     margin: 0 auto;
     text-align: justify;
   }
+  article img{
+    max-width: 70%;
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto 10px;
+  }
+  article h1{
+    text-align: center;
+    font-size: 30px;
+  }
   article p{
     font-size: 20px;
   }
+  article a{
+    text-decoration: none;
+  }
+  article a:hover{
+    color: #2c2c2c;
+}
+  article a:visited{
+    color:#272727;
+}
   /*
    * A better looking default horizontal rule
    */

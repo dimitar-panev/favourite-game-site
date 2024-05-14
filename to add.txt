@@ -1,0 +1,12 @@
+
+    <article>
+        <h1>The first game in the series is <span style="font-style: italic;">Forza Horizon</span></h1>
+        <p>  
+            Forza Horizon is a 2012 racing video game developed by <a href="https://en.wikipedia.org/wiki/Playground_Games">Playground Games</a> and published by <a href="https://en.wikipedia.org/wiki/Xbox">Microsoft Studios</a> for the Xbox 360 on 23 October 2012. The game is the fifth instalment of the Forza series,
+            having originally spun-off from <a href="https://www.turn10studios.com/">Turn 10 Studios-developed</a> Forza Motorsport titles. Taking place during the fictitious Horizon Festival, a street racing event, the player's aim is to progress via winning races,
+            while also increasing their popularity level by performing stunts and activities. Unlike previous games in the Forza series, Forza Horizon takes place in an open world that players can explore. 
+       </p>
+        <img src="img/history/fh1.1.jpg" alt="Forza Horizon 1 image">
+        <p></p>
+        <img src="img/history/fh1.2.jpg" alt="Forza Horizon 1 second image">
+    </article>
