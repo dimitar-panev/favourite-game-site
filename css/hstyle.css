@@ -14,8 +14,7 @@ html {
   /* navbar styling ///////////////////////////////////////// */
   .navbar{
     display: flex;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(44, 44, 44, 0.5);
     border: #000 1px solid;
   }
   @media(max-width: 768px){
@@ -66,9 +65,39 @@ html {
     background: #b3d4fc;
     text-shadow: none;
   }
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
   header img{
-    max-width: 50%;
-    width: 50%;
+    max-width: 35%;
+    width: 35%;
     height: auto;
     display: block;
     margin: 20px auto 10px;
@@ -77,8 +106,11 @@ html {
     width: 50%;
     max-width: 50%;
     margin: 0 auto;
+    text-align: justify;
   }
-  
+  article p{
+    font-size: 20px;
+  }
   /*
    * A better looking default horizontal rule
    */
