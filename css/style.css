@@ -69,6 +69,11 @@ body{
   background: #b3d4fc;
   text-shadow: none;
 }
+article{
+  width: 50%;
+  max-width: 50%;
+  margin: 0 auto;
+}
 
 /*
  * A better looking default horizontal rule
