@@ -1,0 +1,235 @@
+html {
+    background: black;
+    color: white;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* navbar styling ///////////////////////////////////////// */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #000 1px solid;
+  }
+  @media(max-width: 768px){
+    .navbar{
+      flex-direction: column;
+      font-size: 1em;
+      padding: 15px 0;
+    }
+    .navbar-item{
+      width: 100%;
+    }
+  }
+  .navbar-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px;
+  }
+  
+  .navbar-item:hover{ /*add a hover effect*/
+    color: rgb(128, 128, 128);
+  }
+  /* end of navbar styling ////////////////////////////// */
+  
+  .main-content{
+    margin-top: 20px;
+    padding-left: 0.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    min-height: 100vh;
+    font-size: 18px;
+  }
+  .container-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-images img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(44, 44, 44);
+  }
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  header img{
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto 10px;
+  }
+  article{
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
+  }
+  
+  .visually-hidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+  }
+  
+  
+  .visually-hidden.focusable:active,
+  .visually-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
