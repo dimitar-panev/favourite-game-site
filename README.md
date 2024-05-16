@@ -11,7 +11,7 @@
 <p>CTA buttons(perhaps)</p>
 
 <li>History Page</li>
-<p>This page is where I will dive into details about the rest of the games:</p>
+<li>The page is going to have 5 dedicated dropdown menus that include info about each game.</li>
 <p>History of previous games, pictures of them, videos(trailers) and redirects to other sites.</p>
 <p>"High-quality" screenshots and videos showcasing gameplay.</p>
 

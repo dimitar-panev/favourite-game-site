@@ -157,6 +157,13 @@ body{
     justify-content: space-between;
     margin: 10px;
   }
+  footer img{
+    max-width: 40%;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
   /*
    * A better looking default horizontal rule
    */
