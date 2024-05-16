@@ -152,6 +152,11 @@ body{
   article a:visited{
     color:#272727;
 }
+  .bottom-images{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
   /*
    * A better looking default horizontal rule
    */
