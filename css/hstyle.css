@@ -152,7 +152,7 @@ body{
   article a:visited{
     color:#272727;
 }
-  .bottom-images{
+  footer{
     display: flex;
     justify-content: space-between;
     margin: 10px;
