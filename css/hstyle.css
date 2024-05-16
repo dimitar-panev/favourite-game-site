@@ -17,7 +17,6 @@ body{
     align-items: center;
     background-color: rgba(44, 44, 44, 0.5);
     border: #000 1px solid;
-    
   }
 @media(max-width: 768px){
     .navbar{
