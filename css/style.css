@@ -87,23 +87,6 @@ body{
   min-height: 100vh;
   font-size: 18px;
 }
-.container-images{
-  display: flex;
-  justify-content: space-between;
-}
-.container-images img{
-  max-width: 30%;
-  height: auto;
-  width: 30%;
-  margin: 20px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 5px 5px 5px rgb(44, 44, 44);
-}
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
 header img{
   max-width: 50%;
   width: 50%;
@@ -116,6 +99,28 @@ article{
   max-width: 50%;
   margin: 0 auto;
 }
+article h1{
+  text-align: center;
+}
+.container-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  max-width: 80%;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.container-images img {
+  flex: 1 0 auto;
+  margin: 10px;
+  max-width: 25%; 
+  height: auto;
+}
+
+
 
 /*
  * A better looking default horizontal rule
@@ -127,7 +132,7 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0;
+  padding: 0
 }
 audio,
 canvas,
